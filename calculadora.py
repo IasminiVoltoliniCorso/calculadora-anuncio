@@ -115,9 +115,6 @@ def strToDate(data):
 
 
 def executar(args):
-    anuncios.append(Anuncio('flores', 'iasmini', strToDate('01/03/2021'), strToDate('30/03/2021'), 30, 5))
-    anuncios.append(Anuncio('baby', 'larissa', strToDate('01/04/2021'), strToDate('30/04/2021'), 30, 5))
-    anuncios.append(Anuncio('gatinhos', 'felipe', strToDate('01/05/2021'), strToDate('30/05/2021'), 30, 5))
     opcao = 0
     while opcao != 4:
         print('''Informe a opção desejada:     
