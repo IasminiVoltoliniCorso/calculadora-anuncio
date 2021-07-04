@@ -42,8 +42,8 @@ class Anuncio():
 
 
 def cadastrarAnuncio(args):
-    nomeAnuncio = str(input('Nome do anúncio: ')).capitalize().strip()
-    cliente = str(input('Cliente: ')).capitalize().strip()
+    nomeAnuncio = str(input('Nome do anúncio: ')).title().strip()
+    cliente = str(input('Cliente: ')).title().strip()
     dataInicio = datetime.strptime(input('Data de início (dd/mm/aaaa): '), '%d/%m/%Y')
     dataTermino = datetime.strptime(input('Data de término (dd/mm/aaaa): '), '%d/%m/%Y')
     periodoTotal = abs((dataTermino - dataInicio).days)
